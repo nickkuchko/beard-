@@ -43,7 +43,6 @@ gera2ld-pyserve==0.3.1
 html5lib==1.1
 hyperlink==21.0.0
 idna==3.3
-importlib-metadata==1.7.0
 incremental==21.3.0
 iniconfig==1.1.1
 ipykernel==6.9.1
