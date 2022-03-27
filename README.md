@@ -17,3 +17,5 @@ $ pip3 install json-server.py
 Start a server:
 
 $ json-server db.json
+
+Based on db.json file, all the default routes you can find in file json-server-urls.txt 
