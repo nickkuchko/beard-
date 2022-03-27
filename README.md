@@ -2,7 +2,9 @@
 
 
 Getting started 
+
 You should install json-server.py.
+
 It's highly recommended to install with pipx:
 
 $ pipx install json-server.py 
