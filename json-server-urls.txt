@@ -1,0 +1,56 @@
+GET ALL USERS
+http://localhost:3000/users
+
+GET SINGLE USER
+http://localhost:3000/users/1
+
+GET ALL COMPANIES
+http://localhost:3000/companies
+
+GET SINGLE COMPANY
+http://localhost:3000/companies/1
+
+GET ALL POSTS
+http://localhost:3000/posts
+
+GET SINGLE POST 
+http://localhost:3000/posts/1
+
+GET ALL TODOS 
+http://localhost:3000/todos
+
+GET SINGLE TODO 
+http://localhost:3000/todos/1
+
+GET ALL ALBUMS
+http://localhost:3000/albums
+
+GET SINGLE ALBUM
+http://localhost:3000/albums/1
+
+GET ALL PHOTOS
+http://localhost:3000/photos
+
+GET SINGLE PHOTO 
+http://localhost:3000/photos/1
+
+
+
+
+
+
+
+
+GET ALL USERS OF A COMPANY
+http://localhost:3000/companies/1/users
+
+FILTER COMPANIES BY NAME
+http://localhost:3000/companies?name=Microsoft
+http://localhost:3000/companies?name=Microsoft&name=Apple
+
+USERS AGE RANGE
+http://localhost:3000/users?age_gte=30
+http://localhost:3000/users?age_gte=30&age_lte=40
+
+FULL TEXT SEARCH
+http://localhost:3000/users?q=Paul
